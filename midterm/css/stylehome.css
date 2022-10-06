@@ -1,34 +1,34 @@
 body {
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-  }
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  font-family: 'Sorts Mill Goudy', serif;
+}
 
   img {
       max-width: 100%;
       display: block;
-      border: 10px solid rgb(17, 186, 42);
+      border: 10px solid rgb(255, 255, 255);
 
   }
 
-  
-  .logo {
-    font-size: 200%;
-    padding: 50px 20px;
-    margin: 0 auto;
-    max-width: 980px;
-  }
-  
-  .grid {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-  }
-  
+#headerimage {
+  max-width: 100%;
+      display: block;
+      border: 50px solid rgb(255, 255, 255);
+}
+
+.aboutmeimages {
+
+      list-style: none;
+      margin: 1px;
+      padding: 1px;
+      display: block;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+}
+
+
   nav {
     background-color: rgb(255, 255, 255);
     padding: .5em;
@@ -49,9 +49,31 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: .5em 1em;
+    font-family: 'Sorts Mill Goudy', serif;
   }
+
   
-  .photos {
+  a:link,
+      a:visited {
+        color: #000000;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: rgb(31, 160, 31);
+      }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+  }
+
+  
+  .myartphotos {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -65,3 +87,13 @@ body {
       float: left;
       margin-right: 1.5em;
   }
+
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+    font-family: 'Sorts Mill Goudy', serif;
+  }
+  
+  
