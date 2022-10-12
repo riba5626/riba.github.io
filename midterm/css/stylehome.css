@@ -20,6 +20,11 @@ body {
       border: 50px solid rgb(255, 255, 255);
 }
 
+.body {
+  height: 100vh;
+}
+
+
 .aboutmeimages {
 
       list-style: none;
