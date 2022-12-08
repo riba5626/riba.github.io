@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stylehome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    
+    <div class="logo">
+        Barty Creatives
+        </div>
+      
+        <nav>
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./aboutme.html">About Me</a>
+            </li>
+            <li>
+              <a href="./myart.html">My Art</a>
+            </li>
+            <li>
+              <a href="./styling.html">Styling</a>
+            </li>
+            <li>
+              <a href="./magic8ball.html">Magic 8 Ball</a>
+            </li>
+            </li>
+              <a href="./contactme.html">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+
+    <style type="text/css">
+        h1 { font-weight: 100; font-size: 2.5em;}
+        
+        #content { 
+         width: 600px; 
+         margin: 0 auto; 
+         margin-top: 50px; 
+         border: 1px dotted black;       
+         text-align: center; 
+         font-family: 'Sorts Mill Goudy', serif;
+         font-weight: 100;
+       }
+        
+        div.eight-ball {
+          background-color: black;
+          border: 1px solid black;
+          border-radius: 50%;
+          width: 300px;
+          height: 300px;
+          margin: 0 auto;
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+        
+        div.answer {
+          background-color: #333;
+          border: 1px solid #333;
+          border-radius: 50%;
+          width: 50%;
+          height: 50%;
+          margin: 25% auto;
+        }
+        
+        p#eight {
+          font-size: 5em;
+          margin: 20% auto;
+          color: white;
+        }
+        
+        p#answer {
+          padding: 23px;
+          color: lightblue;
+          letter-spacing: 2px;
+          font-size:18px;
+        }
+        
+        #question {
+          margin: 20px;
+          padding: 10px;
+          width: 400px;
+          font-size:22px;
+        }
+        
+        #info {
+          font-size: 22px;
+        }
+        
+      </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Barty Creatives Magic 8 Ball</h1>
+        <p id="info">Ask me a creative question and click on the Magic 8 Ball</p>
+        <input type="text" id="question" />
+        <div id="eight-ball" class="eight-ball">
+          <div class="answer">
+            <p id="eight">8</p>
+            <p id="answer"></p>
+          </div>
+        </div>
+      </div>
+      <script src="/midterm/js/magic8ball.js"></script>
+</body>
+</html>

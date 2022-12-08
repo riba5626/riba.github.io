@@ -12,12 +12,13 @@ body {
 
   }
 
-#headerimage {
+.headerimage {
       max-width: 100%;
-     height: 900px;
-      width: 1200px;
-      display: block;
-      border: 50px solid rgb(255, 255, 255);
+     height: 400px;
+      width: 550px;
+      display: flex;
+      justify-content: center;
+      border: 100px solid rgb(255, 255, 255);
 }
 
 .body {
@@ -75,15 +76,25 @@ body {
     padding: 0 20px;
     max-width: 980px;
     display: grid;
+    list-style-type: none;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
   }
 
+ .contactphoto {
+  max-width: 100%;
+  height: 450px;
+   width: 200px;
+   display: grid;
+   justify-content: left;
+   border: 100px solid rgb(255, 255, 255);
+}
+
   
   .myartphotos {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 50px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
@@ -103,4 +114,12 @@ body {
     font-family: 'Sorts Mill Goudy', serif;
   }
   
-  
+  .stylingphotos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+
+  }
